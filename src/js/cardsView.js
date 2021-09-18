@@ -26,8 +26,10 @@ class CardsView extends Views {
             class="dots"
         /></a>
       </div>
+      <div class = "card__text-box">
       <h2 class="card__current">${info.selectTime.current}hrs</h2>
       <p class="card__previous">Last Week - ${info.selectTime.previous}hrs</p>
+      </div>
     </div>
     </div>`;
   }

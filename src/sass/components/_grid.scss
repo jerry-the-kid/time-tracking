@@ -12,6 +12,10 @@
     grid-row-gap: 3rem;
     margin: 4rem 0;
   }
+
+  @include mq($bp-3) {
+    width: calc(min(45rem, 90%));
+  }
 }
 
 .container-cards {
