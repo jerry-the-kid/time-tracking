@@ -1,0 +1,52 @@
+.card {
+  background-repeat: no-repeat;
+  background-position: right 2rem top;
+  background-size: 7rem;
+  border-radius: 14px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 4.5rem;
+  //   overflow: hidden;
+
+  &__content {
+    height: 100%;
+    background-color: $color-dark-blue;
+    border-radius: 14px;
+    padding: 3rem 2.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #34397b;
+    }
+  }
+
+  &__category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-size: 1.7rem;
+    font-weight: getWeight(bold);
+  }
+
+  &__current {
+    font-size: 4.5rem;
+    font-weight: getWeight(light);
+    margin-bottom: 1.2rem;
+  }
+
+  &__previous {
+    font-size: 1.2rem;
+    font-weight: getWeight(regular);
+    color: rgba(white, 0.6);
+  }
+}
+
+.dots {
+  height: 0.5rem;
+}

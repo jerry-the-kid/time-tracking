@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  @include mq($bp-1) {
+    font-size: 50%;
+  }
+}
+
+body {
+  background-color: $color-black;
+  font-family: "Rubik", sans-serif;
+  min-height: 100vh;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

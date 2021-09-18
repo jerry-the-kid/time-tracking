@@ -1,0 +1,33 @@
+.work {
+  background-color: $color-light-orange;
+  background-image: url(../images/icon-work.svg);
+}
+
+.play {
+  background-color: $color-soft-blue;
+  background-image: url(../images/icon-play.svg);
+}
+
+.study {
+  background-color: $color-red;
+  background-image: url(../images/icon-study.svg);
+}
+
+.exercise {
+  background-color: $color-light-green;
+  background-image: url(../images/icon-exercise.svg);
+}
+
+.social {
+  background-color: $color-violet;
+  background-image: url(../images/icon-social.svg);
+}
+
+.self-care {
+  background-color: $color-soft-orange;
+  background-image: url(../images/icon-self-care.svg);
+}
+
+.active {
+  color: white !important;
+}
