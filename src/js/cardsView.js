@@ -19,7 +19,7 @@ class CardsView extends Views {
     <div class="card__content">
       <div class="card__category">
         <h2 class="card__title">${info.title}</h2>
-        <a href="#${info.title}"
+        <a href="#${info.className}"
           ><img
             src="${icons}"
             alt="options"
